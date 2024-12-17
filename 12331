@@ -1,0 +1,55 @@
+[RoutingRule]
+#和平全火
+关键词，百度，代理
+域名-关键字，反，代理
+DOMAIN-关键字，ap6，DIRECT
+域名-关键字，淘宝，直接
+域名-关键词，加掌，直达
+域名-关键词，泡椒云，直接
+DOMAIN-KEYWORD,itop.qq.com,DIRECT
+DOMAIN-KEYWORD,cg.qq.com,DIRECT
+DOMAIN-关键字，openmobile.qq.com，DIRECT
+DOMAIN-关键字，lanzou，DIRECT
+端口80，拒绝
+端口，443，拒绝
+端口8080，拒绝
+端口8081，拒绝
+端口10012，代理
+端口17500，代理
+端口5692，拒收
+端口20297，拒收
+
+最后、直接
+query为空
+[RoutingDomainStrategy]
+一个
+query为空
+[FreedomDomainStrategy]
+一个
+query为空
+[LocalPolicy]
+bufferSize = 4096
+connIdle = 300
+downlinkOnly = 0
+握手=4
+uplinkOnly = 0
+query为空
+[DnsServer]
+
+
+[DnsRule]
+query为空
+[DnsHost]
+query为空
+[DnsClientIp]
+query为空
+[日志]
+loglevel = none
+query为空
+[PerAppVpn]
+query为空
+[PerAppMode]
+query为空
+[PerAppAllow]
+query为空
+允许
